@@ -5,9 +5,15 @@
 
 - (void)didLoadFromCCB{
 	rootview = [CCDirector sharedDirector].view.window.rootViewController;
+    
+    // get sdk instance
 	VungleSDK* sdk = [VungleSDK sharedSDK];
+    
+    // set delegate to listen for events
 	[sdk setDelegate: self];
-	[self setButtonsState:[[VungleSDK sharedSDK] isCachedAdAvailable]];
+    
+    // initial check of ad availability
+	[self setButtonsState:[[VungleSDK sharedSDK] isAdPlayable]];
 }
 
 - (void)setButtonsState:(BOOL)state{
@@ -29,8 +35,8 @@
 - (void)vungleSDKwillShowAd {
 	[self setButtonsState:NO];
 }
-- (void)vungleSDKhasCachedAdAvailable {
-	[self setButtonsState:YES];
+- (void)vungleSDKAdPlayableChanged:(BOOL)isAdPlayable {
+	[self setButtonsState:isAdPlayable];
 }
 
 @end

@@ -52,6 +52,14 @@
 		840EB3151B1F0700000FA69E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB3141B1F0700000FA69E /* MediaPlayer.framework */; };
 		840EB3171B1F0706000FA69E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB3161B1F0706000FA69E /* StoreKit.framework */; };
 		840EB3191B1F070F000FA69E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB3181B1F070F000FA69E /* SystemConfiguration.framework */; };
+		8468BDD51BBC38F000E6EF1B /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 8468BDCE1BBC38F000E6EF1B /* __vungle.db */; };
+		8468BDD61BBC38F000E6EF1B /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8468BDCF1BBC38F000E6EF1B /* vg_close.png */; };
+		8468BDD71BBC38F000E6EF1B /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8468BDD01BBC38F000E6EF1B /* vg_cta.png */; };
+		8468BDD81BBC38F000E6EF1B /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8468BDD11BBC38F000E6EF1B /* vg_mute_off.png */; };
+		8468BDD91BBC38F000E6EF1B /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8468BDD21BBC38F000E6EF1B /* vg_mute_on.png */; };
+		8468BDDA1BBC38F000E6EF1B /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8468BDD31BBC38F000E6EF1B /* vg_privacy.png */; };
+		8468BDDB1BBC38F000E6EF1B /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468BDD41BBC38F000E6EF1B /* VungleSDK.framework */; };
+		8468BDDF1BBC393000E6EF1B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468BDDE1BBC393000E6EF1B /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		927F619E196C771E000F43EF /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
 		927F61A5196C771E000F43EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
 		927F61A9196C771E000F43EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
@@ -188,6 +196,14 @@
 		840EB3141B1F0700000FA69E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		840EB3161B1F0706000FA69E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		840EB3181B1F070F000FA69E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8468BDCE1BBC38F000E6EF1B /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		8468BDCF1BBC38F000E6EF1B /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		8468BDD01BBC38F000E6EF1B /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		8468BDD11BBC38F000E6EF1B /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		8468BDD21BBC38F000E6EF1B /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		8468BDD31BBC38F000E6EF1B /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		8468BDD41BBC38F000E6EF1B /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		8468BDDE1BBC393000E6EF1B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		927F61BF196C771E000F43EF /* publisher_sample_cocos2d Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "publisher_sample_cocos2d Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -272,6 +288,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8468BDDF1BBC393000E6EF1B /* WebKit.framework in Frameworks */,
 				840EB3191B1F070F000FA69E /* SystemConfiguration.framework in Frameworks */,
 				840EB3171B1F0706000FA69E /* StoreKit.framework in Frameworks */,
 				840EB3151B1F0700000FA69E /* MediaPlayer.framework in Frameworks */,
@@ -290,6 +307,7 @@
 				B77F1B3C17B978D7009739AE /* UIKit.framework in Frameworks */,
 				B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */,
 				B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */,
+				8468BDDB1BBC38F000E6EF1B /* VungleSDK.framework in Frameworks */,
 				B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +467,29 @@
 			name = Mac;
 			sourceTree = "<group>";
 		};
+		8468BDCC1BBC38F000E6EF1B /* VungleSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				8468BDCD1BBC38F000E6EF1B /* Resources */,
+				8468BDD41BBC38F000E6EF1B /* VungleSDK.framework */,
+			);
+			name = VungleSDK.embeddedframework;
+			path = ../VungleSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		8468BDCD1BBC38F000E6EF1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8468BDCE1BBC38F000E6EF1B /* __vungle.db */,
+				8468BDCF1BBC38F000E6EF1B /* vg_close.png */,
+				8468BDD01BBC38F000E6EF1B /* vg_cta.png */,
+				8468BDD11BBC38F000E6EF1B /* vg_mute_off.png */,
+				8468BDD21BBC38F000E6EF1B /* vg_mute_on.png */,
+				8468BDD31BBC38F000E6EF1B /* vg_privacy.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9222E2B918734FF800A246C7 /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +555,8 @@
 		B77F1B3017B978D7009739AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8468BDDE1BBC393000E6EF1B /* WebKit.framework */,
+				8468BDCC1BBC38F000E6EF1B /* VungleSDK.embeddedframework */,
 				840EB3181B1F070F000FA69E /* SystemConfiguration.framework */,
 				840EB3161B1F0706000FA69E /* StoreKit.framework */,
 				840EB3141B1F0700000FA69E /* MediaPlayer.framework */,
@@ -762,17 +805,23 @@
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
+				8468BDD71BBC38F000E6EF1B /* vg_cta.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
 				B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */,
 				B71F5916188484E7003F4D28 /* iPhone-old@2x.png in Resources */,
 				B737893B180761570076A88C /* Published-iOS in Resources */,
+				8468BDDA1BBC38F000E6EF1B /* vg_privacy.png in Resources */,
 				B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */,
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
+				8468BDD81BBC38F000E6EF1B /* vg_mute_off.png in Resources */,
+				8468BDD61BBC38F000E6EF1B /* vg_close.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
+				8468BDD91BBC38F000E6EF1B /* vg_mute_on.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
+				8468BDD51BBC38F000E6EF1B /* __vungle.db in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1139,6 +1188,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/admin/Downloads/VungleSDK.embeddedframework,
+					"/Users/admin/Documents/publisher-sample-cocos2d/VungleSDK.embeddedframework",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1178,6 +1228,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/admin/Downloads/VungleSDK.embeddedframework,
+					"/Users/admin/Documents/publisher-sample-cocos2d/VungleSDK.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
