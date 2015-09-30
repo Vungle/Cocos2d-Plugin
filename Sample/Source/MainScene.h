@@ -15,7 +15,7 @@
 - (void)playIncentivized;
 
 - (void)vungleSDKwillShowAd;
-- (void)vungleSDKhasCachedAdAvailable;
+- (void)vungleSDKAdPlayableChanged:(BOOL)isAdPlayable;
 
 - (void)setButtonsState:(BOOL)state;
 @end
