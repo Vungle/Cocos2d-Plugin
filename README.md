@@ -1,4 +1,4 @@
-# Vungle's Cocos2d (http://www.cocos2d-objc.org/) sample
+# Vungle's [Cocos2d](http://www.cocos2d-objc.org/)-Plugin
 
 ## Getting Started
 To get up and running with Vungle, you'll need to [Create an Account With Vungle](https://v.vungle.com/dashboard/signup) and [Add an Application to the Vungle Dashboard](https://support.vungle.com/hc/en-us/articles/204249614-Adding-an-Application-to-the-Vungle-Dashboard)
